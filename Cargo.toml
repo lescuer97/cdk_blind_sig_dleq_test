@@ -1,0 +1,10 @@
+[package]
+name = "dleq_tester"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cdk = {git="https://github.com/thesimplekid/cdk.git", branch = "fix_secret_tags"}
+tokio = { version = "1", features = ["full"] }
+
+
